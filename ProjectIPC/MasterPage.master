@@ -1,0 +1,55 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>COMERCIO ELECTRONICO</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+</head>
+<body id="top">
+    <form id="form1" runat="server">
+<div class="wrapper"> 
+  <!-- ####################################################################################################### -->
+  <div id="header">
+    <div class="fl_left">
+      <h1><a href="#">COMERCIO ELECTRONICO</a></h1>
+      <p>TODO PRODUCTO A UN CLICK</p>
+    </div>
+    <div class="fl_right"><a href="#"><img src="images/demo/descarga.jpg" alt="" /></a></div>
+    <br class="clear" />
+  </div>
+  <!-- ####################################################################################################### -->
+ 
+    <div id="topnav">
+      <ul>
+        <li class="active"><a href="home.aspx">Home</a></li>
+        <li><a href="Catalogo.aspx">Catalogo</a></li>
+        
+        
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+  <!-- ####################################################################################################### -->
+  
+  <!-- ####################################################################################################### -->
+  
+  <!-- ####################################################################################################### -->
+  
+  <!-- ####################################################################################################### -->
+ 
+  <!-- ####################################################################################################### -->
+  
+  <!-- ####################################################################################################### --> 
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+
+    </asp:ContentPlaceHolder>
+  <br class="clear" />
+
+    </form>
+
+</body>
+</html>

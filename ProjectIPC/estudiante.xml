@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<estudiantes>
+
+<estudiante>
+<nombre>Juan perez</nombre>
+<carnet>201455555</carnet>
+<edad>15</edad>
+</estudiante>
+
+<estudiante>
+<nombre>Juan Lopez</nombre>
+<carnet>201534234 </carnet>
+<edad>20</edad>
+</estudiante>
+
+</estudiantes>
